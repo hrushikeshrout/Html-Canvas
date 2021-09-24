@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 1em;
+  padding: 1em;
+  font: 15px "Arial";
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+p {
+  text-align: justify;
+}
+
+canvas {
+  cursor: var(--cursor-state);
+}
+
+.btn_color {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+  }
+
+  button.tm {
+    margin-top: 23px;
+  }
+  #radio_select{
+    border: 1px dotted #000;
+    /* position: absolute; */
+  }
